@@ -26,6 +26,11 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+ font-size: 30px; 
+ text-align: center;
+}
+
 .navigation-links {
     display: flex;
     margin-top: 40px;
