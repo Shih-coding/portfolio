@@ -5,12 +5,12 @@
 }
 
 body {
-  margin: 60px auto;
+  margin: 100px auto;
   max-width: 1000px
 }
 h1, h2, h3 {
     text-align: center;
-    margin: 5px;
+    margin: 0px;
 }
 
 h2 {
