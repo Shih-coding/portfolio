@@ -77,6 +77,16 @@ border: 2px solid var(--primary-color);
     font-weight: bold;
 }
 
+.she-letters-link {
+  display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    font-weight: bold;
+}
+
 .about-paragraphs {
     display: flex;
     justify-content: space-evenly;
