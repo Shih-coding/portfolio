@@ -45,6 +45,9 @@ h4 {
     text-decoration: none;
     text-transform: capitalize;
 }
+.navigation-links a:hover {
+  color: black;
+}
 
 .contact-link {
     background: var(--primary-color);
@@ -87,6 +90,8 @@ p {margin: 10px;
     display: block;
 }
 
+
+
 .email-link {
       display: flex;
     justify-content: center;
@@ -113,3 +118,4 @@ p {margin: 10px;
 a:-webkit-any-link {
     cursor: pointer;
 }
+
