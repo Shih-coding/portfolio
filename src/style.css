@@ -57,21 +57,24 @@ h4 {
 }
 
 .about-link {
-  background: var(--secondary-color);
+  border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
-     color: white;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: bold;
 }
 
 .work-link {
   background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+    font-weight: bold;
 }
 
 .blog-link {
-border: 2px solid var(--secondary-color);
+border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: black;
+    color: rgba(0, 0, 0, 0.575);
+    font-weight: bold;
 }
 
 .about-paragraphs {
