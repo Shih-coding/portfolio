@@ -77,16 +77,41 @@ border: 2px solid var(--primary-color);
     font-weight: bold;
 }
 
+.she-letters-link:hover {
+  color: black;
+}
+
 .she-letters-link {
-  display: flex;
-    margin-top: 40px;
-    justify-content: center;
+    display:inline-flex;
+    margin-top: 30px;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
 }
 
+.weather-app-link:hover {
+  color: black;
+}
+
+.weather-app-link {
+  display:inline-flex;
+    margin-top: 30px;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 15px 30px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+}
 .about-paragraphs {
     display: flex;
     justify-content: space-evenly;
@@ -132,3 +157,6 @@ a:-webkit-any-link {
     cursor: pointer;
 }
 
+.work-container {
+  margin-top: 40px;
+}
