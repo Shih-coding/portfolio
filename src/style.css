@@ -4,6 +4,10 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
 }
 
+html, body {
+  background-color: #212529;
+}
+
 body {
   margin: 100px auto;
   max-width: 1000px
@@ -11,6 +15,7 @@ body {
 h1, h2, h3 {
     text-align: center;
     margin: 0px;
+    color: whitesmoke;
 }
 
 h2 {
@@ -29,6 +34,7 @@ h3 {
 h4 {
  font-size: 30px; 
  text-align: center;
+   color: whitesmoke;
 }
 
 .navigation-links {
@@ -46,7 +52,7 @@ h4 {
     text-transform: capitalize;
 }
 .navigation-links a:hover {
-  color: black;
+  color: grey;
 }
 
 .contact-link {
@@ -59,7 +65,7 @@ h4 {
 .about-link {
   border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: rgba(0, 0, 0, 0.575);
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -73,7 +79,7 @@ h4 {
 .blog-link {
 border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: rgba(0, 0, 0, 0.575);
+    color: whitesmoke;
     font-weight: bold;
 }
 
@@ -115,21 +121,29 @@ border: 2px solid var(--primary-color);
 }
 .about-paragraphs {
     display: flex;
-    justify-content: space-evenly;
-    margin: 40px 20px;
-}
-
-p {margin: 10px;
-    background: #b6abd85e;
+    justify-content:space-between;
+    margin: 40px;
+    background: var(--secondary-color);
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
     text-align: center;
     display: block;
+    color: whitesmoke;
 }
 
+p {margin: 20px;
+    background: var(--secondary-color);
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    display: block;
+    color: whitesmoke;
 
+}
 
 .email-link {
       display: flex;
@@ -203,4 +217,8 @@ a:-webkit-any-link {
     border-radius: 30px;
     padding: 15px 30px;
     text-decoration: none;
+}
+
+.article-container {
+  color:whitesmoke;
 }
