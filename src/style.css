@@ -32,16 +32,16 @@ h4 {
 }
 
 .navigation-links {
+    margin-top: 50px;
     display: flex;
-    margin-top: 40px;
-    justify-content: center;
+    justify-content:center;
 }
 
 .navigation-links a {
-  flex-direction: row;
-    margin: 20px;
+  text-align: center;
+  margin-bottom: 50px;
     border-radius: 4px;
-    padding: 20px 30px;
+    padding: 20px 20px;
     text-decoration: none;
     text-transform: capitalize;
 }
