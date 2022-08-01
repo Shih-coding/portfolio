@@ -4,6 +4,18 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
 }
 
+.navbar-brand {
+  color: var(--primary-color);
+}
+.nav-link {
+  color: var(--primary-color);
+}
+
+
+.nav-link active {
+  color: var(--primary-color);
+}
+
 html, body {
   background-color: #212529;
 }
@@ -28,7 +40,7 @@ h1 {
 
 h3 {
   font-size: 20px;
-  opacity: 0.7;
+ color: var(--primary-color);
 }
 
 h4 {
@@ -56,11 +68,11 @@ h4 {
     text-transform: capitalize;
 }
 .navigation-links a:hover {
-  color: grey;
+  color: var(--secondary-color);
 }
 
 .contact-link {
-    background: var(--primary-color);
+ border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
@@ -74,7 +86,7 @@ h4 {
 }
 
 .work-link {
-  background: var(--primary-color);
+border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
@@ -88,13 +100,13 @@ border: 2px solid var(--primary-color);
 }
 
 .she-letters-link:hover {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .she-letters-link {
     display:inline-flex;
     margin-top: 30px;
-    background: var(--primary-color);
+     border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
@@ -106,14 +118,14 @@ border: 2px solid var(--primary-color);
 }
 
 .weather-app-link:hover {
-  color: black;
+  color: var(--secondary-color);
 }
 
 .weather-app-link {
   display:inline-flex;
     margin-top: 30px;
     margin-bottom: 50px;
-    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
@@ -123,16 +135,14 @@ border: 2px solid var(--primary-color);
     position: relative;
     left: 10px;
 }
-.about-paragraphs {
-    display: flex;
-    justify-content:space-between;
-    margin: 40px;
+.about-paragraph {
+   margin-top: 70px;
     background: var(--secondary-color);
     padding: 20px;
     border-radius: 4px;
     font-size: 18px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
     display: block;
     color: whitesmoke;
 }
@@ -160,6 +170,7 @@ p {margin: 20px;
 
 .email-link:hover {
     text-decoration: underline;
+    color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -226,3 +237,4 @@ a:-webkit-any-link {
 .article-container {
   color:whitesmoke;
 }
+
