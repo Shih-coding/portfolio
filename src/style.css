@@ -104,8 +104,12 @@ border: 2px solid var(--primary-color);
 }
 
 .she-letters-link {
-    display:inline-flex;
+    display:block;
+    text-align: center;
     margin-top: 30px;
+    width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
      border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
@@ -113,8 +117,6 @@ border: 2px solid var(--primary-color);
     border-radius: 30px;
     padding: 15px 30px;
     text-decoration: none;
-    position: relative;
-    left: 10px;
 }
 
 .weather-app-link:hover {
@@ -122,9 +124,13 @@ border: 2px solid var(--primary-color);
 }
 
 .weather-app-link {
-  display:inline-flex;
+  display:block;
+  text-align: center;
     margin-top: 30px;
     margin-bottom: 50px;
+    width: 50%;
+  margin-left:25%;
+  margin-right: 25%;
     border: 2px solid var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
@@ -132,8 +138,6 @@ border: 2px solid var(--primary-color);
     border-radius: 30px;
     padding: 15px 30px;
     text-decoration: none;
-    position: relative;
-    left: 10px;
 }
 .about-paragraph {
    margin-top: 70px;
@@ -204,7 +208,7 @@ a:-webkit-any-link {
   margin-left:25%;
   margin-right: 25%;
   margin-bottom: 50px;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
@@ -225,7 +229,7 @@ a:-webkit-any-link {
   width: 50%;
   margin-left:25%;
   margin-right: 25%;
-    background: var(--primary-color);
+    background: var(--secondary-color);
     box-shadow: var(--box-shadow);
     color: white;
     font-weight: bold;
